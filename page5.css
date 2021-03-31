@@ -1,0 +1,59 @@
+.dissertationBox {
+    min-height: 1000px;
+    margin:0px auto;
+    
+    width:950px;
+}
+
+.dissertationBox-in img{
+    width:300px;
+    box-shadow: 0 0 5px black;
+}
+
+.dissertationBox1 {
+    display: grid;
+    margin-top:50px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.upOne{
+    padding-left:60px;
+}
+.upTwo {
+    padding-top:0px;
+    margin-right:60px;
+}
+
+.upTwo .title {
+    font-size:1.3rem;
+    font-weight: bold;
+}
+.title{
+    font-size:1.3rem;
+    font-weight: bold;
+}
+.abstractCh, .abstractEn {
+    padding-left:60px;
+}
+
+blockquote {
+    line-height: 2.4rem;
+}
+
+.title1 {
+    margin-top:5px;
+}
+
+.title a:link, .title a:visited{
+    color:black;
+}
+
+.title a:hover{
+    text-decoration: underline;
+}
+
+#linkFig {
+    width:15px;
+    height:15px;
+    box-shadow: 0 0 0 0;
+}
